@@ -16,6 +16,9 @@ function App() {
         <Route path={`/:type/:id`}>
           <PetDetailsPage />
         </Route>
+        <Route path={'/pet-details-not-found'}>
+          <PetDetailsNotFound />
+        </Route>
         <Route path={`/:type?`}>
           <HomePage />  
         </Route>
